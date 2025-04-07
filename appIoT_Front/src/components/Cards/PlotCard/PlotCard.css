@@ -1,0 +1,29 @@
+.plot-card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 12px;
+    width: 300px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.plot-card:hover {
+    transform: scale(1.03);
+}
+
+.plot-card h3 {
+    margin: 0;
+    color: #2c3e50;
+    font-size: 18px;
+}
+
+.plot-card p {
+    margin: 6px 0;
+    color: #555;
+    font-size: 14px;
+}
+
+.plot-card strong {
+    color: #333;
+}

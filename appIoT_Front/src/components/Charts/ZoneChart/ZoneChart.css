@@ -1,0 +1,22 @@
+/* ZonesStatusChart.css */
+.chart-container {
+    background-color: var(--blanco);
+    border-radius: 10px;
+    width: 400vh;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--gris-medio);
+}
+
+.chart-container h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: var(--gris-oscuro);
+    font-size: 1.2rem;
+}
+
+.chart-wrapper {
+    position: relative;
+    height: 300x;
+    width: 100%;
+}
